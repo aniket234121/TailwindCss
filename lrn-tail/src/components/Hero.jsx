@@ -35,8 +35,8 @@ const Hero = () => {
           })}
         </div>
       </div>
-      <div>
-        <img src={bigShoe1} alt="" height={500} width={610} />
+      <div className="relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center bg-hero">
+       <img src={bigShoe1} alt="" height={500} width={610} className="object-contain relative z-10"/>
       </div>
     </section>
   );
